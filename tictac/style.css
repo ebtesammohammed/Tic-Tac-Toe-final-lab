@@ -1,0 +1,42 @@
+#Board {
+    height: 320px;
+    padding: 3em;
+    text-align: center;
+}
+
+.container {
+    text-align: center;
+}
+
+.row > div {
+    float: left;
+    height: 100px;
+    width: 100px;
+    cursor: pointer;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 60px;
+}
+
+.row {
+    clear: both;
+    margin: 0 auto;
+    width: 302px;
+}
+
+.top {
+    border-bottom: 1px solid black;
+
+}
+
+.bottom {
+    border-top:1px solid sienna;
+    
+}
+
+.left {
+    border-right: 1px solid blue;
+}
+
+.right {
+    border-left: 1px solid palevioletred;
+}
